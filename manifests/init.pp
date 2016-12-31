@@ -54,7 +54,9 @@ class masterless_conf() {
     #}
 
     # install Chromium
-    include chromium
+    package { 'chromium': 
+        ensure => installed
+    }
     
     # install VIM
     package { 'vim':
