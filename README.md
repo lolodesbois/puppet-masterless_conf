@@ -1,0 +1,1 @@
+# puppet-masterless_conf

@@ -1,0 +1,13 @@
+{
+  "name": "puppet-masterless_conf",
+  "version": "0.1.0",
+  "author": "lolodesbois",
+  "summary": "My own computer configuration",
+  "license": "",
+  "source": "https://github.com/lolodesbois/puppet-masterless_conf.git",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
