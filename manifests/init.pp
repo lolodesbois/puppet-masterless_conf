@@ -122,7 +122,9 @@ class masterless_conf() {
  
     # Install nodeJS
     class { 'nodejs':
-    }   
+        version => 'latest',
+        make_install => false
+    }
     
     # install globally yarn using npm to replace ...npm 
     package { 'yarn':
