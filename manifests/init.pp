@@ -64,11 +64,11 @@ class masterless_conf() {
     }
     
     # install nginx
-    include nginx
+    #class { 'nginx':
+    #}
 
 
     # install php 5 resources
-#    class php5 {
     package { 'php5':
        ensure => installed
     }
@@ -87,7 +87,6 @@ class masterless_conf() {
     package { 'php5-mysql':
        ensure => installed
     }
-#    }
 
     #http://download.virtualbox.org/virtualbox/5.0.14/virtualbox-5.0_5.0.14-105127~Ubuntu~wily_amd64.deb
     # Install Virtualbox
