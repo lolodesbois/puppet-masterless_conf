@@ -8,5 +8,5 @@ mod 'puppet-nginx', '0.5.0'
 
 mod 'danzilio-virtualbox'
 mod "tylerwalts/jdk_oracle"
-mod 'willdurand/nodejs', '2.x.x'
+mod 'willdurand/nodejs'
 
