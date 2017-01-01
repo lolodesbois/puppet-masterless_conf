@@ -1,5 +1,6 @@
 forge "https://forgeapi.puppetlabs.com"
 
+mod "puppetlabs/stdlib"
 mod 'puppetlabs/apt'
 mod 'puppet-archive', '1.2.0'
 
